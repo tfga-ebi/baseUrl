@@ -1,0 +1,4 @@
+
+
+java -jar build/libs/baseUrl-0.0.1-SNAPSHOT.jar
+
