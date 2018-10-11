@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 
 public class BaseUrl {
 
-	String baseURL(HttpServletRequest request) throws MalformedURLException {
+	public String baseURL(HttpServletRequest request) throws MalformedURLException {
 	    
 	    String requestUrl = request.getRequestURL().toString(); // includes the server path
 	    
