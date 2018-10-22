@@ -15,9 +15,9 @@ public class BaseUrlController {
 
     BaseUrl b = new BaseUrl();
     
-    @RequestMapping("/")
+    @RequestMapping("/tfga")
     public String index(HttpServletRequest request) throws MalformedURLException {
         
-        return b.baseURL(request);
+        return b.baseURL(request) + '\n';
     }
 }
