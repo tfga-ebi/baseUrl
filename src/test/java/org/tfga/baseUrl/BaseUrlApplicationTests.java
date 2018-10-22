@@ -4,13 +4,13 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-import org.tfga.baseUrl.web.BaseUrlApplication;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = BaseUrlApplication.class)
+@SpringBootTest
 public class BaseUrlApplicationTests {
 
 	@Test
 	public void contextLoads() {
 	}
+
 }
