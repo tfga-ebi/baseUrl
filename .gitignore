@@ -24,3 +24,11 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+
+bin
+.classpath
+.gradle
+.project
+.settings
+build
+
